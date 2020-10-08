@@ -83,7 +83,7 @@ int main()
 	Employee Employee1("FARID","PUTRA",3500000);
 	Employee Employee2("KEVIN","MUHAMMAD",2580000);
 	cout << "EMPLOYEE 1 : "<< Employee1.getFirstName()<<" "<< Employee1.getLastName()<<endl;
-	cout << "Month Sallary : "<< Employee1.getMonthlDySalary()<<endl;
+	cout << "Month Sallary : "<< Employee1.getMonthlySalary()<<endl;
 	cout << "Year Sallary : "<< Employee1.getMonthlySalary()*12<< endl<<endl;
 	cout << "SETELAH KENAIKAN 10% :"<<endl;
 
